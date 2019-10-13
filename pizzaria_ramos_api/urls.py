@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from pizzaria_ramos_api.pizzaria_ramos_api import views
+from pizzaria_ramos_api.app import views
 
 router = DefaultRouter()
 router.register(r'pizzas', views.PizzaViewSet)

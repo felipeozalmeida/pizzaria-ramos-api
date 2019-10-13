@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from pizzaria_ramos_api.pizzaria_ramos_api.models import Pizza
+from pizzaria_ramos_api.app.models import Pizza
 
 class PizzaSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
