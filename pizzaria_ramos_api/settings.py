@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'pizzaria_ramos_api.pizzaria_ramos_api',
+    'pizzaria_ramos_api.app',
     'rest_framework',
 ]
 
