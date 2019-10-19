@@ -6,6 +6,7 @@ class Pizza(models.Model):
     ingredients = models.TextField()
     price = models.FloatField()
     created = models.DateTimeField(auto_now_add=True)
+    image = models.ImageField(upload_to='uploads/%Y/%m/%d/', max_length=255, null=True, blank=True)
 
     # TODO: add field for uploaded image
 
